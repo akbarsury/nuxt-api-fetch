@@ -1,6 +1,6 @@
 import type { FetchResult, UseFetchOptions } from '#app';
-import type { AsyncData, KeysOf, PickFrom } from '#app/composables/asyncData';
-import type { DefaultAsyncDataErrorValue, DefaultAsyncDataValue } from '#app/defaults';
+import type { KeysOf } from '#app/composables/asyncData';
+import type { DefaultAsyncDataValue } from '#app/defaults';
 import type { AvailableRouterMethod, NitroFetchRequest } from 'nitropack/types';
 
 const useApiFetch = async  <
